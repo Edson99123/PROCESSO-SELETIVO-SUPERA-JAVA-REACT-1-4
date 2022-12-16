@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
 public class OrdenandoNumerosParesEImpares {
     public static void main(String[] args) throws IOException  {
 
-        //System.out.println("Olá Edson");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int linhas = Integer.parseInt(st.nextToken());
